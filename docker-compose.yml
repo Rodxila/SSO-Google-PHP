@@ -2,7 +2,8 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    build:
+      context: .
     ports:
       - "8080:80"
     volumes:
@@ -11,3 +12,4 @@ services:
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
       GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
       GOOGLE_REDIRECT_URI: ${GOOGLE_REDIRECT_URI}
+    command: bash -c "composer install && apache2-foreground"
