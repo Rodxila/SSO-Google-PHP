@@ -1,0 +1,32 @@
+# Composer
+/vendor/
+composer.lock
+
+# Dotenv
+.env
+
+# Docker artifacts
+*.log
+*.pid
+*.sock
+*.db
+*.sqlite
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Apache/PHP cache
+*.php~
+*.bak
+*.tmp
+
+# Node (por si se usa en el futuro)
+node_modules/
