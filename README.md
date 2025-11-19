@@ -44,7 +44,7 @@ ES NECESARIO TENER INSTALADO DOCKER
 4. Abre en el navegador:
 
 
-    http://localhost/sso-google-php/public/index.php
+    http://localhost:8080/public/index.php
 
 
 🧰 Requisitos
