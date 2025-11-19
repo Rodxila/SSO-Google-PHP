@@ -37,12 +37,13 @@ ES NECESARIO TENER INSTALADO DOCKER
     GOOGLE_CLIENT_SECRET=tu-client-secret-aqui
 
 3. Arranca el proyecto:
+   
     cd sso-google-php
    
     docker-compose up --build
 
 
-5. Abre en el navegador:
+4. Abre en el navegador:
 
 
     http://localhost:8080/public/index.php
