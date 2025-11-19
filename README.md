@@ -37,7 +37,7 @@ ES NECESARIO TENER INSTALADO DOCKER
     GOOGLE_CLIENT_SECRET=tu-client-secret-aqui
 
 3. Arranca el proyecto:
-
+    cd sso-google-php
     docker-compose up --build
 
 
