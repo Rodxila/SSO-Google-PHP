@@ -27,8 +27,12 @@ ES NECESARIO TENER INSTALADO DOCKER
 
     En el menú lateral selecciona "APIs y servicios" → "Credenciales" → "Crear credenciales" → "ID de cliente de OAuth".
     Tipo de aplicación: "Aplicación web".
-    En "Orígenes de JavaScript autorizados" añade: http://localhost:9778 
-    En "URI de redireccionamiento autorizados" añade: http://localhost:8080/public/callback.php
+    En "Orígenes de JavaScript autorizados" añade: http://localhost:9778
+    
+    En "URI de redireccionamiento autorizados" añade:
+    http://localhost:8080/public/callback.php
+    http://localhost/sso-google-php/public/callback.php\
+    http://localhost:9778/accounts/google/login/callback
     Crear y copia el Client ID y el Client secret que te proporcione la consola.
     Pegar las credenciales en tu .env local
 
@@ -36,14 +40,14 @@ ES NECESARIO TENER INSTALADO DOCKER
     GOOGLE_CLIENT_ID=tu-client-id-aqui.apps.googleusercontent.com
     GOOGLE_CLIENT_SECRET=tu-client-secret-aqui
 
-3. Arranca el proyecto:
+4. Arranca el proyecto:
    
     cd sso-google-php
    
     docker-compose up --build
 
 
-4. Abre en el navegador:
+5. Abre en el navegador:
 
 
     http://localhost:8080/public/index.php
