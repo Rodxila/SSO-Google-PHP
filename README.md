@@ -6,7 +6,7 @@ Este proyecto permite iniciar sesión con Google usando PHP y Docker.
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/sso-google-php.git
+   git clone https://github.com/Rodxila/sso-google-php.git
    cd sso-google-php
 
 2. Cómo obtener el GOOGLE_CLIENT_ID y GOOGLE_CLIENT_SECRET
