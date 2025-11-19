@@ -45,7 +45,7 @@ ES NECESARIO TENER INSTALADO DOCKER
     cd sso-google-php
    
     docker-compose up --build
-
+    Este paso puede llevar mucho tiempo, ten paciencia
 
 5. Abre en el navegador:
 
