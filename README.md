@@ -45,9 +45,10 @@ ES NECESARIO TENER INSTALADO DOCKER
     cd sso-google-php
    
     docker-compose up --build
+   
     Este paso puede llevar mucho tiempo, ten paciencia
 
-5. Abre en el navegador:
+6. Abre en el navegador:
 
 
     http://localhost:8080/public/index.php
