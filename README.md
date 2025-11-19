@@ -2,6 +2,8 @@
 
 Este proyecto permite iniciar sesión con Google usando PHP y Docker.
 
+ES NECESARIO TENER INSTALADO DOCKER 
+
 ## 🚀 Cómo arrancarlo
 
 1. Clona el repositorio:
